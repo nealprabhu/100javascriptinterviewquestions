@@ -1,8 +1,20 @@
 {
   "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
+    { "id": 1,
+      "Name": "Beanbag", 
+     "Type":"Chair",
+     "Price": 500,
+      "img": 1},
+    { "id": 2, 
+      "Name": "RestChair", 
+     "Type":"Chair",
+     "Price": 1000,
+      "img": 2},
+    { "id": 3,
+      "Name": "Studytable", 
+     "Type":"Table",
+     "Price": 1000,
+      "img": 3}
   ],
   "comments": [
     { "id": 1, "body": "some comment", "postId": 1 },
