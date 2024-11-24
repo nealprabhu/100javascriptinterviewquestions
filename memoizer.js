@@ -1,4 +1,4 @@
-// Create a memoizer function..
+// Create a memoizer function
 
 const memoize = function (fn) {
     const cache = {};
