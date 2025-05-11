@@ -1,0 +1,25 @@
+𝗚𝗼𝗷𝗲𝗸 𝗜𝗻𝘁𝗲𝗿𝘃𝗶𝗲𝘄 𝗘𝘅𝗽𝗲𝗿𝗶𝗲𝗻𝗰𝗲 – 𝗦𝘁𝗮𝗳𝗳 𝗙𝗿𝗼𝗻𝘁𝗲𝗻𝗱 𝗘𝗻𝗴𝗶𝗻𝗲𝗲𝗿
+𝗥𝗼𝘂𝗻𝗱 𝟭: 𝗢𝗻𝗹𝗶𝗻𝗲 𝗖𝗼𝗱𝗶𝗻𝗴 𝗔𝘀𝘀𝗲𝘀𝘀𝗺𝗲𝗻𝘁
+🔹 Build a reusable custom hook for form validation in React
+🔹 Implement a pagination function using useState and useEffect
+🔹 Create an infinite scroll component with optimal rendering
+𝗥𝗼𝘂𝗻𝗱 𝟮: 𝗧𝗲𝗰𝗵𝗻𝗶𝗰𝗮𝗹 𝗦𝗰𝗿𝗲𝗲𝗻𝗶𝗻𝗴 (𝗟𝗶𝘃𝗲 𝗖𝗼𝗱𝗶𝗻𝗴)
+🔹 Explain and apply memoization in a real use case
+🔹 Discuss state management strategy for large-scale apps (Redux / Context)
+🔹 Simulate an event-driven system using JavaScript (async event handling)
+𝗥𝗼𝘂𝗻𝗱 𝟯: 𝗦𝘆𝘀𝘁𝗲𝗺 𝗗𝗲𝘀𝗶𝗴𝗻 𝗜𝗻𝘁𝗲𝗿𝘃𝗶𝗲𝘄
+📌 Scenario 1: Design a real-time notification system (WebSockets, SSE, push notifications)
+📌 Scenario 2: Handle frontend architecture for a multi-tenant app (route generation, lazy loading, isolation)
+📌 Scenario 3: Visualize large datasets in real-time (virtualization, lazy loading, performance strategies)
+𝗥𝗼𝘂𝗻𝗱 𝟰: 𝗟𝗲𝗮𝗱𝗲𝗿𝘀𝗵𝗶𝗽 & 𝗖𝗼𝗹𝗹𝗮𝗯𝗼𝗿𝗮𝘁𝗶𝗼𝗻
+🔹 Led a project while balancing tech debt and timely delivery
+🔹 Code review approach for senior engineers – focus on mentorship
+🔹 Aligning frontend execution with product goals in Agile sprints
+𝗥𝗼𝘂𝗻𝗱 𝟱: 𝗕𝗲𝗵𝗮𝘃𝗶𝗼𝗿𝗮𝗹 𝗜𝗻𝘁𝗲𝗿𝘃𝗶𝗲𝘄
+🔹 Handling disagreements on technical solutions – focus on collaboration
+🔹 Managing multiple high-priority tasks and meeting deadlines
+🔹 Driving UX impact through frontend decisions and performance improvements
+𝗥𝗼𝘂𝗻𝗱 𝟲: 𝗧𝗲𝗰𝗵𝗻𝗶𝗰𝗮𝗹 𝗗𝗲𝗲𝗽 𝗗𝗶𝘃𝗲
+🔹 Strategies to improve large-scale frontend performance (code splitting, lazy loading, tree shaking)
+🔹 Frontend architecture for a microservices backend (gateway, composition patterns)
+🔹 Efficient handling of UI components with multiple async service calls (suspense, error boundaries)
