@@ -1,0 +1,37 @@
+Amazon INTERVIEW EXPERIENCE 
+Over the past few weeks, my inbox has been flooded with messages asking about my Amazon interview experience — and I couldn’t be more grateful for the support and curiosity.
+Now that I’ve officially joined Amazon (it’s been 2 weeks!), I thought this would be the right time to share my full interview journey — not as an announcement, but as a small way to give back to this amazing tech community that helped me prepare.
+Amazon Interview Process Overview:
+✅ 𝗢𝗡𝗟𝗜𝗡𝗘 𝗔𝗦𝗦𝗘𝗦𝗦𝗠𝗘𝗡𝗧 :
+Two DSA-based coding questions to clear the first hurdle and work style assessment.
+✅ 𝗟𝗢𝗢𝗣 𝗜𝗡𝗧𝗘𝗥𝗩𝗜𝗘𝗪𝗦 (3 rounds – 2 Technical, 1 Managerial):
+🔹 1𝙨𝙩 𝙏𝙚𝙘𝙝𝙣𝙞𝙘𝙖𝙡 𝙍𝙤𝙪𝙣𝙙:
+🧮 Digit Transformation Problem – Given a start and end number, return the minimum operations and path to convert start to end. You can only:
+Double a digit (≤ 9)
+Increment a digit (≤ 9)
+Decrement a digit (> 0)
+🌳 Max Product Tree Split – Given a binary tree, remove an edge so the product of the sum of resulting subtrees is maximized.
+🔸 Behavioral: 
+1)Tell me a moment where you findout a customer issue and fixed it.
+🔹 2𝙣𝙙 𝙏𝙚𝙘𝙝𝙣𝙞𝙘𝙖𝙡 𝙍𝙤𝙪𝙣𝙙:
+🌲 Count Univalue Subtrees – Number of subtrees where all nodes have the same value.
+🔄 String Transformation (L, R, -) – Two strings with L, R, -, can one be transformed into another under movement rules?
+🔸 Behavioral: 
+1)How did you managed learning & work as a fresher.
+2)Asked few questions about test writing approaches ,languages - resume based question as I mentioned them in the resume.
+🔹 𝙈𝙖𝙣𝙖𝙜𝙚𝙧𝙞𝙖𝙡 𝙍𝙤𝙪𝙣𝙙:
+1)Tell me about yourself
+2)Why career move?
+3)What is your Preferred location?
+4)Is there any situation where you couldnt deliver the work by deadline and how did you handle it?
+5)Did you ever got a negative feedback if yes how did you handled it?
+6) Design a vending machine - LLD(basic oops level created classes and respective functional calls and methods according to the requirements)
+🎯 Preparation Resources:
+Strivers A-Z Sde sheet
+LeetCode problems 
+System Design basics
+GeeksforGeeks + YouTube (for behavioral prep & clarity)
+For the behavioural questions I followed the STAR pattern and created a set of my own stories that matches according to the amazon leadership principles and owned my each and every story.
+Before every interview, I reminded myself of one simple truth: the result isn't in my hands — but the effort, preparation, and attitude I bring absolutely are.
+My only goal was to give my best and come out of the experience as a better version of myself — either one step closer to my career move, or one step wiser with new learnings and insights.
+If this post helps even one person feel more confident or hopeful in their own journey, it will mean a lot to me
