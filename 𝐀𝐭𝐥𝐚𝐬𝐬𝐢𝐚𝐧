@@ -1,0 +1,19 @@
+𝐈𝐧𝐭𝐞𝐫𝐯𝐢𝐞𝐰 𝐄𝐱𝐩𝐞𝐫𝐢𝐞𝐧𝐜𝐞 𝐚𝐭 𝐀𝐭𝐥𝐚𝐬𝐬𝐢𝐚𝐧 – 𝐒𝐃𝐄 𝟐 𝐑𝐨𝐥𝐞
+
+Recently interviewed at Atlassian. Sharing my experience to help anyone preparing for similar roles 👇
+
+◼️ 𝟏𝐬𝐭 𝐑𝐨𝐮𝐧𝐝 – 𝐊𝐚𝐫𝐚𝐭 𝐈𝐧𝐭𝐞𝐫𝐯𝐢𝐞𝐰 (𝟔𝟎 𝐦𝐢𝐧𝐬)
+→ 10 mins: Brief project discussion
+→ 20 mins: System design — 5 scenario-based questions focused on trade-offs and design decisions
+→ 30 mins: DSA — 2 problems, had to solve at least 1 to proceed
+✅ Needed to clear at least 1 DSA and 3 design scenarios to pass
+
+◼️ 𝟐𝐧𝐝 𝐑𝐨𝐮𝐧𝐝 – 𝐂𝐨𝐝𝐞 𝐃𝐞𝐬𝐢𝐠𝐧
+→ Task: Design a Rate Limiter
+→ Focus: Scalability, clean and maintainable code, modular design decisions
+
+◼️ 𝟑𝐫𝐝 𝐑𝐨𝐮𝐧𝐝 – 𝐌𝐚𝐜𝐡𝐢𝐧𝐞 𝐂𝐨𝐝𝐢𝐧𝐠
+→ Problem: Booking tennis courts based on availability and incoming requests
+→ Key expectations: OOP design, edge case handling, writing production-level code
+
+To clear interviews at PBCs like Atlassian, you need more than just practice—you need a SOLID roadmap that covers company-specific topics, DSA, scalable systems, etc.
