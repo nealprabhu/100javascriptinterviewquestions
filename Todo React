@@ -1,0 +1,60 @@
+import React, { useState } from "react";
+
+export default function TodoApp() {
+  const [todos, setTodos] = useState([]);
+  const [input, setInput] = useState("");
+
+  const handleAdd = () => {
+    if (input.trim() === "") return;
+    setTodos([...todos, { text: input, done: false }]);
+    setInput("");
+  };
+
+  const toggleDone = (index) => {
+    const updatedTodos = todos.map((todo, i) =>
+      i === index ? { ...todo, done: !todo.done } : todo
+    );
+    setTodos(updatedTodos);
+  };
+
+  const deleteTodo = (index) => {
+    const updatedTodos = todos.filter((_, i) => i !== index);
+    setTodos(updatedTodos);
+  };
+
+  return (
+    <div style={{ padding: "20px", maxWidth: "400px", margin: "auto" }}>
+      <h2>✅ Todo List</h2>
+      <input
+        value={input}
+        onChange={(e) => setInput(e.target.value)}
+        placeholder="Add a task..."
+      />
+      <button onClick={handleAdd}>Add</button>
+
+      <ul style={{ listStyle: "none", padding: 0 }}>
+        {todos.map((todo, index) => (
+          <li key={index} style={{ margin: "10px 0" }}>
+            <span
+              style={{
+                textDecoration: todo.done ? "line-through" : "none",
+                marginRight: "10px",
+              }}
+            >
+              {todo.text}
+            </span>
+            <button onClick={() => toggleDone(index)}>
+              {todo.done ? "Undo" : "Done"}
+            </button>
+            <button
+              onClick={() => deleteTodo(index)}
+              style={{ marginLeft: "5px" }}
+            >
+              Delete
+            </button>
+          </li>
+        ))}
+      </ul>
+    </div>
+  );
+}
