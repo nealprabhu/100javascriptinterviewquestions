@@ -1,0 +1,42 @@
+𝗥𝗼𝘂𝗻𝗱 𝟭: 𝗠𝗮𝗰𝗵𝗶𝗻𝗴 𝗖𝗼𝗱𝗶𝗻𝗴 𝗥𝗼𝘂𝗻𝗱
+ - Cricket ScoreBoard Application (commonly found in Leetcode posts)
+ - Build a cricket scorecard system that displays the team score and each player's performance.
+ - Inputs: Number of players per team, number of overs, and batting order.
+Ball-by-ball input includes runs (including wides, no balls, or wickets).
+ - At the end of every over, print:
+ - Individual scores, balls faced, number of 4s and 6s.
+ - Total team score, wickets.
+ - Implement strike changes, handle extras, and determine the match winner.
+
+𝗥𝗼𝘂𝗻𝗱 𝟮: 𝗗𝗮𝘁𝗮 𝗦𝘁𝗿𝘂𝗰𝘁𝘂𝗿𝗲𝘀 & 𝗣𝗿𝗼𝗯𝗹𝗲𝗺 𝗦𝗼𝗹𝘃𝗶𝗻𝗴
+ - Find all pairs in an array with a given sum.
+ - Find all triplets in an array with a given sum.
+ - Check if a binary tree has a duplicate subtree.
+ - Given a matrix, a position, and a value k, return the sum of the element at the position and all its neighbors within distance k (including diagonals).
+
+𝗥𝗼𝘂𝗻𝗱 𝟯: 𝗛𝗶𝗴𝗵 𝗟𝗲𝘃𝗲𝗹 𝗗𝗲𝘀𝗶𝗴𝗻 (𝗛𝗟𝗗)
+ - Design an Alert Monitoring System
+ - Context: Central system in a microservices environment to manage alerts from different systems.
+ - Features to support:
+ - SIMPLE_COUNT: Raise alert if event count crosses a threshold.
+ - BUCKETED_WINDOW: Count events in fixed buckets (e.g., 10 events in 1-hour bucket).
+ - MOVING_WINDOW: Count events in a sliding time window.
+ - The system should handle user/system events, trigger alerts based on configuration, and support real-time monitoring.
+
+𝗥𝗼𝘂𝗻𝗱 𝟰: 𝗛𝗠 𝗥𝗼𝘂𝗻𝗱 (𝗛𝗶𝗿𝗶𝗻𝗴 𝗠𝗮𝗻𝗮𝗴𝗲𝗿)
+ - Discussion Topics: Project experiences.
+ - Day-to-day responsibilities.
+ - Light behavioral questions.
+ - Design Question: Tiny URL system (ran out of time midway).
+
+𝗥𝗼𝘂𝗻𝗱 𝟱: 𝗛𝗟𝗗 𝟮
+ - Design Stack Overflow-like System
+ - Cover user flows, question/answer posting, tagging, voting, reputation system, and content visibility.
+ - Performance, scale, and consistency challenges.
+
+𝗞𝗲𝗲𝗽𝗶𝗻𝗴 𝘁𝗵𝗶𝘀 𝗶𝗻 𝗺𝗶𝗻𝗱, 𝗜’𝘃𝗲 𝗽𝗿𝗲𝗽𝗮𝗿𝗲𝗱 𝗶𝗻 𝗗𝗲𝗽𝘁𝗵 𝗦𝘆𝘀𝘁𝗲𝗺 𝗗𝗲𝘀𝗶𝗴𝗻 𝗚𝘂𝗶𝗱𝗲.
+
+𝗚𝗲𝘁 𝘁𝗵𝗲 𝗚𝘂𝗶𝗱𝗲 𝗵𝗲𝗿𝗲: 
+ - https://lnkd.in/dte69Z5N
+
+Stay curious, keep learning, and keep sharing!
