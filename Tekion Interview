@@ -1,0 +1,81 @@
+//TEKION Staff interview question
+
+FRONTEND – STAFF+
+
+Event Emitter System in React
+
+Problem Statement:
+You are tasked with designing and implementing a lightweight event emitter system for a React application. This system should enable components to communicate in a decoupled manner without relying on prop drilling or external state management libraries.
+
+Requirements:
+
+Design and implement an event emitter module with the following methods:
+a. on(eventName, callback) — Subscribe to an event.
+b. off(eventName, callback) — Unsubscribe from an event.
+c. emit(eventName, payload) — Emit an event with an optional payload to all registered listeners.
+
+Create a custom React hook named useEvent that:
+a. Subscribes to a specific event when a component mounts.
+b. Automatically unsubscribes when the component unmounts.
+c. Invokes the provided callback when the event is emitted.
+
+Demonstrate usage by creating two React components:
+a. One component emits a specific event with a payload.
+b. The other component listens for this event and updates its UI accordingly.
+
+Address the following considerations in your solution:
+a. Preventing memory leaks through proper subscription cleanup.
+b. Handling cases when there are no listeners or invalid payloads.
+c. Ensuring robustness if event listeners throw errors.
+
+
+
+FRONTEND – SSE
+
+Problem statement: Build a Real-Time Collaborative Typing Indicator System
+
+Scenario:
+You’re building a collaborative editor (like Google Docs). Implement the “typing indicator” feature, showing when other users are typing in real-time.
+
+Requirements:
+
+UI:
+
+A text input area for the current user to type.
+
+A list of fake “other users” (e.g., Alice, Bob, Carol).
+
+When any other user is typing, display:
+
+“Alice is typing…” or
+
+“Alice and Bob are typing…” or
+
+“Several people are typing…”
+
+
+Functionality:
+
+Simulate real-time typing from other users via setInterval + random user activity.
+
+The typing indicator should:
+○ Show when a user starts typing.
+○ Hide if a user stops typing for 3 seconds.
+
+Ensure that repeated activity resets the 3-second timeout (debouncing).
+
+Typing messages should update in real time as users start/stop.
+
+Stretch Goals:
+
+Animate the “…” after the typing indicator.
+
+Add a presence model: online/offline users.
+
+Avoid unnecessary re-renders (optimize for 100+ users).
+
+Extract a custom hook: useTypingStatus(userId)
+
+Use useReducer or immer to manage typing states cleanly.
+
+
