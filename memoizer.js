@@ -28,3 +28,30 @@ console.log(a);
 
 let b = memoizedFactorial(100);
 console.log(b);
+
+
+//memorizer funtion for sum
+function memorize(fn) {
+  let context = {};
+  return function (...args) {
+    let key = JSON.stringify(args);
+    if (context[key]) {
+      console.log("Cached Data");
+      return context[key];
+    } else {
+      let result = fn(...args);
+      context[key] = result;
+      console.log("Calculated Data");
+      return context[key];
+    }
+  };
+}
+
+function sum(a, b) {
+  return a + b;
+}
+
+let result = memorize(sum);
+console.log(result(3, 3));
+console.log(result(3, 3));
+console.log(result(3, 3));
