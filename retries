@@ -1,0 +1,35 @@
+//Api mock by using promise
+const apiCall = () =>
+  new Promise((resolve, reject) => {
+    const response = {
+      name: "Prabhu",
+      place: "Bangalore",
+      age: 34,
+    };
+    let statusCode = 200; // Change to 200 to simulate success
+    if (statusCode === 200) {
+      resolve(response);
+    } else {
+      reject("Failed");
+    }
+  });
+
+//function to retry api call of calling failed API for 3 times with a delay of 1s.
+function reEntry(callback, retries = 3, delay = 1000) {
+  return callback()
+    .then((val) => {
+      console.log(val);
+    })
+    .catch((err) => {
+      if (retries > 0) {
+        console.log(`Retrying... attempts left: ${retries}`);
+        return new Promise((resolve) => setTimeout(resolve, delay)).then(() =>
+          reEntry(callback, retries - 1, delay)
+        );
+      } else {
+        console.log("FAILED");
+      }
+    });
+}
+
+reEntry(apiCall, 3, 1000);
