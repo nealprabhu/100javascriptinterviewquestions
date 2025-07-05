@@ -6,7 +6,7 @@ const apiCall = () =>
       place: "Bangalore",
       age: 34,
     };
-    let statusCode = 200; // Change to 200 to simulate success
+    let statusCode = 201; // Change to 200 to simulate success
     if (statusCode === 200) {
       resolve(response);
     } else {
