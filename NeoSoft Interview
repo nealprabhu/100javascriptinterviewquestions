@@ -1,0 +1,19 @@
+Neo Soft Interview 
+Round: 1 - Telephonic
+Year: 2024
+Position: Software Engineer 
+Tech Stacks: ReactJS, JS, Angular, RxJS
+Experience: 2-3 years
+The tech world is buzzing, and NeoSOFT is always on the lookout for bright minds. To help you shine in your next interview, here are some key concepts we recommend mastering. Understanding these will truly set you apart!
+Interview Questions:
+1. Next.js vs. React.js: When would you choose one over the other?
+2. SSR (Server-Side Rendering): Why is it a game-changer for web apps?
+3. useEffect hook: What's its purpose in React component lifecycles?
+4. Custom Routes in Next.js: How do you implement them for clean navigation?
+5. getServerSideProps: When and why do you use this Next.js function for data fetching?
+6. Git fetch vs. Git pull: Can you clearly explain the difference?
+7. WebSockets: In what scenarios are they essential for real-time communication?
+8. Promise: How do you handle asynchronous operations in JavaScript using Promises?
+9. Synchronous vs. Asynchronous: What's the fundamental difference and its impact on code execution?
+10. Observables: (Especially for reactive programming) What problem do they solve?
+11. TypeScript vs. JavaScript​: What are the key advantages of using TypeScript?
