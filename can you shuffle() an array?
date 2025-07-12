@@ -1,0 +1,30 @@
+8. can you shuffle() an array?
+
+BFE js
+
+How would you implement a shuffle() ?
+
+When passed with an array, it should modify the array inline to generate a randomly picked permutation at the same probability.
+
+for an array like this:
+
+Copy to BlackBox
+const arr = [1, 2, 3, 4]
+
+your shuffle() should transform the array in one of the above array, at the same 1/24 probability.
+
+notes
+
+function shuffle(arr) {
+  // for(i=0;i< arr.length-1;i++){
+  //   let j = Math.floor(Math.random() * (i+1));
+  //   [arr[i],arr[j]] = [arr[j],arr[i]]
+  // }
+  // return arr;
+   for (let i = arr.length - 1; i > 0; i--) {
+    let j = Math.floor(Math.random() * (i + 1));
+    [arr[i], arr[j]] = [arr[j], arr[i]];
+  }
+  return arr;
+  // modify the arr inline to change the order randomly
+}
