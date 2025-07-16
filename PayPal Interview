@@ -1,0 +1,12 @@
+𝗥𝗼𝘂𝗻𝗱 𝟭: 𝗗𝗼𝗺𝗮𝗶𝗻-𝗦𝗽𝗲𝗰𝗶𝗳𝗶𝗰 𝗜𝗻𝘁𝗲𝗿𝘃𝗶𝗲𝘄
+• Deep dive into past projects
+• What is the difference between DOM and BOM?
+• Explain event delegation in JavaScript.
+• What are the key features introduced in ES6?
+• What is web accessibility and how do you implement it?
+• Explain closures and give a use case.
+• How does the event loop work in JavaScript?
+
+𝗥𝗼𝘂𝗻𝗱 𝟮: 𝗗𝗮𝘁𝗮 𝗦𝘁𝗿𝘂𝗰𝘁𝘂𝗿𝗲𝘀 & 𝗔𝗹𝗴𝗼𝗿𝗶𝘁𝗵𝗺𝘀
+• Anagram Checker – Check if two strings are anagrams.
+• Find the leftmost and rightmost index of a target in a sorted array.
