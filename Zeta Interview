@@ -1,0 +1,107 @@
+Round 1 :
+o/p based question
+
+
+console.log("Begin");
+setTimeout(()=>{
+console.log("setTimeout 1");
+Promise.resolve().then(()=>{
+  console.log("Promise 1");
+});
+},0);
+
+new Promise( function(resolve,reject){
+  console.log("Promise 2");
+  setTimeout( function(){
+    console.log("setTimeout 2");
+    resolve("resolve 1");
+  },0)
+}).then((res)=>{
+  console.log("dot the 1");
+  setTimeout(()=>{
+    console.log(res);
+  },0)
+})
+
+
+o/p
+1. Synchronous code first
+These lines run immediately (on the main stack):
+
+js
+Copy
+Edit
+console.log("Begin");           // → "Begin"
+js
+Copy
+Edit
+setTimeout(...);               // Schedules a macrotask → queued
+js
+Copy
+Edit
+new Promise(...)               // Executes synchronously:
+  console.log("Promise 2");    // → "Promise 2"
+  setTimeout(...)              // Another macrotask → queued
+.then(...)                     // The .then is queued **after resolve**
+                              // So, not yet queued (no resolve yet)
+At this point, the event loop has:
+
+🕒 Task Queues:
+Macrotasks (setTimeout):
+
+setTimeout 1 → (contains Promise 1)
+
+setTimeout 2 → resolves promise
+
+Microtasks: empty
+
+🧠 After main thread is done:
+🧱 Macrotask 1: setTimeout 1
+js
+Copy
+Edit
+console.log("setTimeout 1");  // → "setTimeout 1"
+Promise.resolve().then(() => {
+  console.log("Promise 1");
+});
+Now Promise 1 is queued as a microtask.
+
+✅ Microtask: Promise 1
+js
+Copy
+Edit
+console.log("Promise 1");     // → "Promise 1"
+🧱 Macrotask 2: setTimeout 2
+js
+Copy
+Edit
+console.log("setTimeout 2");  // → "setTimeout 2"
+resolve("resolve 1");         // Promise is resolved
+Now then block is queued as a microtask.
+
+✅ Microtask: .then(...)
+js
+Copy
+Edit
+console.log("dot the 1");     // → "dot the 1"
+setTimeout(() => {
+  console.log(res);           // "resolve 1"
+}, 0);
+New macrotask added for console.log(res)
+
+🧱 Macrotask 3: setTimeout(() => console.log(res))
+js
+Copy
+Edit
+console.log("resolve 1");     // → "resolve 1"
+✅ Final Output:
+javascript
+Copy
+Edit
+Begin
+Promise 2
+setTimeout 1
+Promise 1
+setTimeout 2
+dot the 1
+resolve 1
